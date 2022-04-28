@@ -19,7 +19,7 @@ body{
     justify-content: center;
 }
 .logobanda img{
-    width: 30rem;
+    width: 20rem;
     display: flex;
     justify-content: center;
     animation-name: rotacion;
@@ -30,7 +30,7 @@ body{
     color: white;
 }
 .imagenBg{
-    height: 100vh;
+    height: 80rem;
     background-image: url("./imagenes/imagenbg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,6 +95,9 @@ body{
     display: grid;
     align-items: center;
     justify-content: center;
+}
+.card{
+    margin: 0 auto;
 }
 
 @media (max-width: 768px){

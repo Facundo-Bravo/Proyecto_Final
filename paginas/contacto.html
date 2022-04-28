@@ -44,25 +44,32 @@
           </nav>
     </header>
    <main>
-    <form class="formulario">
-        <div>
-            <input type="text" placeholder="Nombre y Apellido">
-        </div>
-        <div>
-            <input type="email" placeholder="E-mail">
-        </div>
-        <div>
-            <input type="tel" placeholder="Telefono">
-        </div>
-        <div>
-            <input type="text" placeholder="Asunto">
-        </div>
-        <div>
-            <input type="button" value="Enviar">
-        </div>
-
-    </form>
-     
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="name" class="form-label"></label>
+        <input type="name" class="form-control" id="name" placeholder=Nombre>
+      </div>
+      <div class="col-md-6">
+        <label for="lastname" class="form-label"></label>
+        <input type="lastname" class="form-control" id="lastname" placeholder=Apellido>
+      </div>
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label"></label>
+        <input type="email" class="form-control" id="inputEmail4" placeholder=E-mail>
+      </div>
+      <div class="col-md-6">
+        <label for="inputAddress" class="form-label"></label>
+        <input type="number" class="form-control" id="inputAddress" placeholder=Teléfono>
+      </div>
+      <div class="col-12">
+        <label for="text" class="form-label"></label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder=Asunto>
+      </div>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
+    </form> 
    </main>
     
     <footer class="footer">
