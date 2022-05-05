@@ -30,7 +30,7 @@ body{
     color: white;
 }
 .imagenBg{
-    height: 80rem;
+    height: 50rem;
     background-image: url("./imagenes/imagenbg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
