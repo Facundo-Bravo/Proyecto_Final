@@ -1,1 +1,19 @@
-$color-principal: black
+$colores: (
+    color-principal: black,
+    color-secundario: white,
+);
+$tamanio-tipografico:(
+    titulos: 24px,
+    subtitulos: 16px,
+    parrafos: 12px,
+);
+%flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};
+%grid-center{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
