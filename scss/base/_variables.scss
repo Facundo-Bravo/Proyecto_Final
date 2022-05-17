@@ -9,7 +9,7 @@ $tamanio-tipografico:(
 );
 %flex-center{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 };
 %grid-center{

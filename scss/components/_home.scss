@@ -1,48 +1,61 @@
-.header{
+body{
     background-color: map-get($colores, color-principal);
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    @extend %grid-center;
-   
+}
+.header{
+    background-color: map-get($colores, color-principal);   
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+.centrado{
+    margin: 0 auto;
 }
 
 .logobanda{
     background-color: map-get($colores, color-principal);
-    width: fit-content;
-    justify-content: center;
 }
 
 .logobanda img{
-    width: 20rem;
+    width: 50rem;
+    margin: 0 auto;
     @extend %flex-center;
-    animation-name: rotacion;
-    animation-duration: 5s;
-    animation-delay: 2s;
+    @media (max-width: 420px) {
+        width: 80%;
+        margin: 0 auto;
+        
+    }
 }
 
 .nav-link{
-    color: map-get($colores, $color-secundario);
+    color: map-get($colores, color-secundario);
 }
 
 .imagenBg{
-    height: 80rem;
-    background-image: url("./imagenes/imagenbg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color:map-get($colores, color-principal);
-    margin: 0%;
-    padding: 0%;
-    display: flex;
+   @extend %flex-center;
+}
+.imagenBg img{
+    height: auto;
+    width: 50rem;
+    @media (max-width: 420px) {
+        height: auto;
+        width: 100%;
+        
+        
+    }
 }
 .footer{
-    background-color: map-get($colores, color-principal);
+    background-color: black;
 }
 .footer__links{
-  @extend %grid-center;
+  display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
 }
 .footer__links img {
    width: 40px;
    margin: 5px;
    padding: 2px;
 }
+

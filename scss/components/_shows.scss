@@ -1,5 +1,5 @@
 .fechas{
-    color: map-get($colores, $color-secundario);
+    color: map-get($colores, color-secundario);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: map-get($tamanio-tipografico, titulos);
     text-align: center;

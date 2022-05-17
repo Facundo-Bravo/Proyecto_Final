@@ -6,7 +6,7 @@
 }
 .title{
     font-size: map-get($tamanio-tipografico, titulos);
-    color: map-get($colores, $color-secundario);
+    color: map-get($colores, color-secundario);
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
@@ -22,7 +22,7 @@
     font-size: map-get($tamanio-tipografico, parrafos);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: map-get($colores, color-principal);
-    background-color: map-get($colores, $color-secundario);
+    background-color: map-get($colores, color-secundario);
 }
 .card{
     margin: 0 auto;

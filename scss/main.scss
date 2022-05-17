@@ -1,6 +1,7 @@
-@import url(./base/_variables.scss);
-@import url(./components/_home.scss);
-@import url(./components/_contacto.scss);
-@import url(./components/_fotos.scss);
-@import url(./components/_quienes-somos.scss);
-@import url(./components/_shows.scss);
+@import "./base/variables";
+@import "./components/home";
+@import "./components/fotos";
+@import "./components/contacto";
+@import "./components/quienes-somos";
+@import "./components/shows";
+
