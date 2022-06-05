@@ -1,30 +1,20 @@
-.bio{
-    background-color: map-get($colores, color-principal);
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 20% 50% 10%;
+.biografia{
+    margin: 0 auto;
+    width: 70%;
+    background-color: map-get($colores, color-principal)
 }
-.title{
-    font-size: map-get($tamanio-tipografico, titulos);
+.biotitulo{
     color: map-get($colores, color-secundario);
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
+    font-size: map-get($tamanio-tipografico, titulos);
 }
-.bio img{
-    width: 50%;
-    position: relative;
-    margin-left: 25%;
-    margin-bottom: 20%;
+.biotext{
+    color: map-get($colores, color-secundario);
+    text-align: justify;
 }
-.bio p{
-    text-align: center;
-    font-size: map-get($tamanio-tipografico, parrafos);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: map-get($colores, color-principal);
-    background-color: map-get($colores, color-secundario);
+.fondoint{
+    background-color: rgb(67, 67, 67);
 }
-.card{
-    margin: 0 auto;
-    width: 50%;
+.cardfondo{
+    background-color: rgb(144, 142, 142);
 }

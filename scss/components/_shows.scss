@@ -1,8 +1,23 @@
-.fechas{
-    color: map-get($colores, color-secundario);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: map-get($tamanio-tipografico, titulos);
-    text-align: center;
-    margin: 10px;
+.cajas{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+}
 
+.cuadroshow {
+    background-color: map-get($colores, color-principal);
+}
+
+.showtitulo{
+    color: map-get($colores, color-secundario);
+    font-size: map-get($tamanio-tipografico, titulos);
+}
+
+.showsubtitulo{
+    color: rgb(131, 131, 131);
+    font-size: map-get($tamanio-tipografico, subtitulos);
+}
+
+.showtext{
+    color: rgb(131, 131, 131);
 }

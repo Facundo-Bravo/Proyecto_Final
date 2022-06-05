@@ -3,11 +3,6 @@
   justify-content: space-evenly;
   align-items: center; }
 
-.formulario {
-  display: grid;
-  justify-content: center;
-  align-items: center; }
-
 body {
   background-color: black; }
 
@@ -29,7 +24,7 @@ body {
   margin: 0 auto; }
   @media (max-width: 420px) {
     .logobanda img {
-      width: 80%;
+      width: 70%;
       margin: 0 auto; } }
 
 .nav-link {
@@ -40,11 +35,16 @@ body {
   width: 50rem; }
   @media (max-width: 420px) {
     .imagenBg img {
+      margin-top: 15%;
+      margin-bottom: 10%;
       height: auto;
       width: 100%; } }
 
 .footer {
-  background-color: black; }
+  background-color: black;
+  position: absolute;
+  bottom: 0 auto;
+  width: 100%; }
 
 .footer__links {
   display: grid;
@@ -58,45 +58,52 @@ body {
   padding: 2px; }
 
 .carousel {
-  width: 50%;
-  margin-left: 25%; }
+  margin-top: 3%;
+  margin-bottom: 3%; }
+
+.carousel-inner {
+  width: 70%;
+  margin: 0 auto; }
 
 .formulario {
-  width: 100%;
-  height: 8rem; }
-
-.bio {
-  background-color: black;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 20% 50% 10%; }
-
-.title {
-  font-size: 24px;
-  color: white;
-  text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
-
-.bio img {
-  width: 50%;
-  position: relative;
-  margin-left: 25%;
+  margin-top: 5%;
   margin-bottom: 20%; }
 
-.bio p {
-  text-align: center;
-  font-size: 12px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: black;
-  background-color: white; }
-
-.card {
+.biografia {
   margin: 0 auto;
-  width: 50%; }
+  width: 70%;
+  background-color: black; }
 
-.fechas {
+.biotitulo {
   color: white;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 24px;
   text-align: center;
-  margin: 10px; }
+  font-size: 24px; }
+
+.biotext {
+  color: white;
+  text-align: justify; }
+
+.fondoint {
+  background-color: #434343; }
+
+.cardfondo {
+  background-color: #908e8e; }
+
+.cajas {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 15%; }
+
+.cuadroshow {
+  background-color: black; }
+
+.showtitulo {
+  color: white;
+  font-size: 24px; }
+
+.showsubtitulo {
+  color: #838383;
+  font-size: 16px; }
+
+.showtext {
+  color: #838383; }
